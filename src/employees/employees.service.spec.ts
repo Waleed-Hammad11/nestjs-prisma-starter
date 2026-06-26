@@ -52,6 +52,7 @@ describe('EmployeesService', () => {
     it('should create a new employee', async () => {
       const dto = {
         name: 'John Doe',
+        password: 'password123',
         email: 'john@example.com',
         role: Role.ENGINEER,
       };

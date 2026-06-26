@@ -50,6 +50,7 @@ describe('EmployeesController', () => {
       const dto = {
         name: 'John Doe',
         email: 'john@example.com',
+        password: 'password123',
         role: Role.ENGINEER,
       };
       mockEmployeesService.create.mockResolvedValue(mockEmployee);
